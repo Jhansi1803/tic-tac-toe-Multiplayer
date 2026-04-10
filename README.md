@@ -1,6 +1,6 @@
-# 🎮 Tic Tac Toe Multiplayer (Nakama + React)
+#  Tic Tac Toe Multiplayer (Nakama + React)
 
-## 📌 Overview
+##  Overview
 
 This project is a real-time multiplayer Tic Tac Toe game built using:
 
@@ -13,7 +13,7 @@ The application demonstrates multiplayer game state synchronization using Nakama
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Real-time multiplayer architecture
 * WebSocket-based communication
@@ -38,7 +38,7 @@ React Frontend  --->  Nakama Server  ---> CockroachDB
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 tic-tac-toe-multiplayer/
@@ -55,9 +55,9 @@ tic-tac-toe-multiplayer/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 🔹 Backend (Nakama + DB)
+###  Backend (Nakama + DB)
 
 ```bash
 cd backend
@@ -71,7 +71,7 @@ Ensure ports are running:
 
 ---
 
-### 🔹 Frontend
+###  Frontend
 
 ```bash
 cd frontend
@@ -87,7 +87,7 @@ http://localhost:3000
 
 ---
 
-## 🎮 How It Works
+##  How It Works
 
 1. User connects using Nakama client
 2. A match is created or joined
@@ -97,7 +97,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 Backend Logic (match.js)
+##  Backend Logic (match.js)
 
 * `matchInit` → Initializes board
 * `matchLoop` → Handles moves
@@ -105,7 +105,7 @@ http://localhost:3000
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 * Match synchronization across multiple tabs may require improved match-sharing logic
 * No win/draw detection implemented
@@ -114,7 +114,7 @@ http://localhost:3000
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add winner detection
 * Player roles (X / O)
@@ -124,7 +124,7 @@ http://localhost:3000
 
 ---
 
-## 📚 Learnings
+##  Learnings
 
 * Real-time communication using WebSockets
 * Nakama match lifecycle
